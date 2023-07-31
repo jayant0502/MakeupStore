@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600&family=Lato:wght@700&family=Roboto:wght@400;500;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arimo', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+/* ====================navbar======================= */
+#logo{
+    width: 100px;
+    height: 80px;
+    mix-blend-mode:darken;
+}
+header{
+    display: flex;
+    align-items: center;
+   
+    background-color:#ffffff;
+    position: sticky;
+    top: 0;
+}
+.head>a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 1rem;
+   
+   
+}
+#search{
+    border: none;
+    background-color: rgb(231, 222, 222);
+    width: 70%;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 90px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.menu{
+    flex: 1;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none; 
+
+}
+.menu-list>li>a{
+    color: black;
+    text-decoration: none;
+  
+    font-family: 'Roboto', sans-serif;
+}
+
+.search-menu{
+    margin-right: 1rem;
+}
+/* =====================img section================== */
+.img-cont>img{
+    width:100%;
+
+}
+.text{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+#intro{
+    font-size: 3rem;
+}
+#outro{
+    margin-top: 1em;
+    font-size: 1rem;
+}
+.buy{
+    margin-top: 1rem;
+    padding: 0.6rem;
+    border-radius: 20px;
+    background-color: rgb(22, 21, 21);
+    color: #ffffff;
+
+}
+
+/* ================card================== */
+.cards{
+    margin-top: 3rem;
+    border: 2px solid black;
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 2%;
+    border: none;
+}
+#pro,#blush,#eye{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    object-fit:fill;
+    mix-blend-mode: overlay;
+   
+    
+
+}
+.card-heading{
+    font-family: 'Arimo', sans-serif;
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+}
+.price{
+    margin-top: 0.5rem;
+    font-family: 'Arimo', sans-serif;
+  
+    font-family: 'Roboto', sans-serif;
+}
+.btn{
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    background-color:#fc0373; background-color:#fc0373;
+
+}
+
+/* =======================footer======================= */
+footer{
+
+    background-color: rgb(18, 19, 20);
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 55px 55px 55px;
+    color: #ffffff;
+}
+.icon-wrapper,.icon-wrapper>a{
+    display: flex;
+    color: #ffffff;
+    justify-content: space-evenly;
+}
+.contents>h1,h4{
+    padding-bottom: 2rem ;
+    font-family: 'Lato',sans-serif;
+    text-transform: uppercase;
+
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.divider{
+    position: relative;
+    border-bottom:2px solid #282828 ;
+    width: 80%;
+    left: 10%;
+    /* padding: 300px; */
+}
+.sub{
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    padding: 2rem 0rem 3rem 0rem;
+}
+.sub p{
+    opacity: 70%;
+}
+.pay-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
