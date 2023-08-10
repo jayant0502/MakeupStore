@@ -28,22 +28,26 @@ let url=async()=>{
 }
 url();
 
-const searchInput = document.getElementById("search");
-searchInput.addEventListener("keyup", ()=>{
+
+
+// const searchInput = document.getElementById("search");
+// searchInput.addEventListener("keyup",x());
   
 
-  const searchItem = searchInput.value.toLowerCase();
-  const products = document.querySelectorAll(".product");
+//   function x(){
+//   const searchItem = searchInput.value.toLowerCase();
+//   const products = document.querySelectorAll(".product");
 
  
-  products.forEach((product) => {
-    const productName = product.querySelector("h2").textContent.toLowerCase();
+//   products.forEach((product) => {
+//     const productName = product.querySelector("h2").textContent.toLowerCase();
 
     
-    if (productName.includes(searchItem)) {
-      product.style.display = "Flex";
-    } else {
-      product.style.display = "none";
-    }
-  });
-});
+//     if (productName.includes(searchItem)) {
+//       product.style.display = "Flex";
+//     } else {
+//       product.style.display = "none";
+//     }
+//   });
+// }
+// x();
